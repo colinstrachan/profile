@@ -1,0 +1,200 @@
+body {
+  background-image: url("images/mtlbg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 24px;
+  color: rgb(43, 65, 98);
+}
+
+h3 {
+  color: rgb(125, 125, 142);
+}
+
+p {
+  color: rgb(125, 125, 142);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(56, 95, 113, 0.4);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(56, 95, 113, 1.0);
+}
+
+.container {
+  width: 850px;
+  margin: 30 auto;
+}
+
+.bio {
+  background-color: white;
+  text-align: center;
+  box-shadow: 5px 5px 3px rgba(43, 65, 98, 0.7);
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.social {
+  background-color: white;
+  text-align: center;
+  box-shadow: 5px 5px 3px rgba(43, 65, 98, 0.7);
+  margin-bottom: 20px;
+  list-style-type: none;
+  border-radius: 15px;
+  padding: 0;
+}
+
+.favourites {
+  background-color: white;
+  text-align: center;
+  box-shadow: 5px 5px 3px rgba(43, 65, 98, 0.7);
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.favourites table {
+  padding: 15px;
+}
+
+.favourites td {
+  padding: 15px;
+  vertical-align: top;
+}
+
+.city-image {
+  position: relative;
+}
+
+.city-image img {
+  width: auto;
+  height: auto;
+}
+
+.city-image .btn {
+  position: absolute;
+  top: 85%;
+  left: 260%;
+  transform: translate(-50%, -40%);
+  -ms-transform: translate(0%, 0%);
+  background-color: rgba(43, 65, 98, 0.9);
+  color: white;
+  font-size: 12px;
+  padding: 8px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.city-image .btn:hover {
+  background-color: rgba(43, 65, 98, 0.5)
+}
+
+.footer {
+  background-color: white;
+  text-align: center;
+  box-shadow: 5px 5px 3px rgba(43, 65, 98, 0.7);
+  padding: 10px;
+  margin: 0;
+  border-radius: 15px;
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.shadowed {
+  box-shadow: 2px 3px 1px rgba(43, 65, 98, 0.7);
+}
+
+.btn-top {
+  margin-top: 20px;
+  background-color: rgba(43, 65, 98, 0.9);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 10px;
+}
+
+.btn-top:hover {
+  margin-top: 20px;
+  background-color: rgba(43, 65, 98, 0.5);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 10px;
+}
+
+.icon {
+  color: rgb(148, 159, 176);
+}
+
+.icon:hover {
+  color: white;
+}
+
+#social-icons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+#social-icons li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 25px;
+}
+
+#share-icons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+#share-icons li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 60px 0px 60px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(33, 50, 83, 1.0);
+  text-align: center;
+  color: white;
+  padding: 50px 0px 0px 0px;
+  min-height: 150px;
+}
+
+#page-content {
+  margin-left: 100px;
+}
+
+.sidebar-top {
+  vertical-align: top;
+}
+
+.sidebar-bottom {
+  position: absolute;
+  bottom: 60px;
+  left: 15px;
+  vertical-align: bottom;
+  text-align: center;
+}
